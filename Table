@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phone cost</title>
+</head>
+<body>
+  <h1>phone cost</h1>
+
+<table border="1">
+  <caption>Fictional phone prices</caption>
+    
+    <tr> 
+      <th>Model</th>
+      <th>Price</th>
+    </tr>
+
+    <tr>
+      <td>Apple iphone 16</td>
+      <td>$800</td>
+    </tr>
+
+    <tr>
+      <td>Apple iphone 17</td>
+      <td>$900</td>
+    </tr>
+
+    <tr>
+      <td>Apple iphone 18 pro</td>
+      <td>$2,400</td>
+    </tr>
+</table>
+
+<h2>Conclusions</h2>
+
+<ul>
+  <li>Apple iphone 16 is the least expensive.</li>
+  <li>Apple iphone 17 is one of the newer phines for a reasonable price.</li>
+  <li>Apple iphone 18 is the most expensive by over a thousand dollars.</li>
+</ul>
+
+</body>
+</html>
