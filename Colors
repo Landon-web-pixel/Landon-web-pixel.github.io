@@ -1,0 +1,76 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ocean Sunset Color Scheme</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 12px;
+        }
+
+        caption {
+            font-size: 28px;
+            font-weight: bold;
+            font-style: italic;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Ocean Sunset Color Scheme</caption>
+
+        <tr>
+            <th>Color Name</th>
+            <th>Color Sample</th>
+            <th>HEX</th>
+            <th>RGB</th>
+            <th>HSL</th>
+        </tr>
+
+        <tr>
+            <td>Ocean Blue</td>
+            <td style="background-color: #0077B6;">Ocean Blue</td>
+            <td>#0077B6</td>
+            <td>rgb(0, 119, 182)</td>
+            <td>hsl(201, 100%, 36%)</td>
+        </tr>
+
+        <tr>
+            <td>Seafoam Green</td>
+            <td style="background-color: #52B788;">Seafoam Green</td>
+            <td>#52B788</td>
+            <td>rgb(82, 183, 136)</td>
+            <td>hsl(152, 42%, 52%)</td>
+        </tr>
+
+        <tr>
+            <td>Sunset Orange</td>
+            <td style="background-color: #FF7F50;">Sunset Orange</td>
+            <td>#FF7F50</td>
+            <td>rgb(255, 127, 80)</td>
+            <td>hsl(16, 100%, 66%)</td>
+        </tr>
+
+        <tr>
+            <td>Sandy Gold</td>
+            <td style="background-color: #FFD166;">Sandy Gold</td>
+            <td>#FFD166</td>
+            <td>rgb(255, 209, 102)</td>
+            <td>hsl(42, 100%, 70%)</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+```
