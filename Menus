@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landon's Menus</title>
+
+    <style>
+        <body>
+            font-family: Arial, sans-serif;
+            background-color: #f4f0e8;
+            text-align: center;
+        
+
+        <h1> 
+            color: #663300;
+        
+
+        .menu 
+            width: 400px;
+            height: 550px;
+            padding: 20px;
+            margin: 25px auto;
+            border: 5px solid #663300;
+            box-sizing: border-box;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+        
+
+        .breakfast 
+            background-image: url("https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=800");
+        
+
+        .lunch 
+            background-image: url("https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800");
+        
+
+        .dinner 
+            background-image: url("https://images.unsplash.com/photo-1544025162-d76694265947?w=800");
+        </h1>
+
+        <h2> 
+            font-size: 30px;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border: 2px solid white;
+        </h2>
+
+        <ul> 
+            list-style-type: none;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.65);
+            border: 2px solid white;
+        </u1>
+
+        <li>
+            font-size: 18px;
+            margin: 15px 0;
+        </li>
+    </style>
+</head>
+
+<body>
+
+    <h1>Delicious Restaurant Menus</h1>
+
+    <div class="menu breakfast">
+        <h2>Breakfast Menu</h2>
+        <ul>
+            <li>Pancakes - $6</li>
+            <li>Scrambled Eggs - $5</li>
+            <li>Bacon and Toast - $7</li>
+            <li>French Toast - $6</li>
+            <li>Fresh Fruit - $4</li>
+            <li>Orange Juice - $3</li>
+            <li>Coffee - $2</li>
+        </ul>
+    </div>
+
+        <h2>Lunch Menu</h2>
+        <ul>
+            <li>Cheeseburger - $10</li>
+            <li>Chicken Sandwich - $9</li>
+            <li>Caesar Salad - $8</li>
+            <li>Grilled Cheese - $6</li>
+            <li>French Fries - $4</li>
+            <li>Lemonade - $3</li>
+            <li>Iced Tea - $2</li>
+        </ul>
+
+
+        <h2>Dinner Menu</h2>
+        <ul>
+            <li>Grilled Steak - $18</li>
+            <li>Roast Chicken - $15</li>
+            <li>Spaghetti - $12</li>
+            <li>Grilled Salmon - $17</li>
+            <li>Baked Potato - $5</li>
+            <li>Fresh Lemonade - $3</li>
+            <li>Chocolate Cake - $6</li>
+        </ul>
+
+</body>
+</html>
