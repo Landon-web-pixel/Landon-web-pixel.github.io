@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<head>
+    <title>My Busiest Day</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf2f8;
+            margin: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1b4f72;
+        }
+
+        table {
+            width: 85%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th {
+            background-color: #1b4f72;
+            color: white;
+            padding: 12px;
+            border: 2px solid #154360;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #7f8c8d;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #d6eaf8;
+        }
+
+        tr:hover {
+            background-color: #aed6f1;
+        }
+
+        .time {
+            width: 25%;
+            font-weight: bold;
+            color: #154360;
+        }
+
+        .event {
+            width: 75%;
+        }
+
+        #last-event {
+            background-color: #d5f5e3;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Busiest Day Schedule</h1>
+
+    <table>
+        <tr>
+            <th class="time">Time</th>
+            <th class="event">Activity</th>
+        </tr>
+
+        <tr>
+            <td class="time">6:00 AM</td>
+            <td class="event">Wake up and get ready</td>
+        </tr>
+
+        <tr>
+            <td class="time">7:50 AM</td>
+            <td class="event">Eat breakfast</td>
+        </tr>
+
+        <tr>
+            <td class="time">8:08 AM</td>
+            <td class="event">Start school</td>
+        </tr>
+
+        <tr>
+            <td class="time">9:00 AM</td>
+            <td class="event">Work on Online Cources</td>
+        </tr>
+
+        <tr>
+            <td class="time">10:50 AM</td>
+            <td class="event">Finish up with my 21st Century work</td>
+        </tr>
+
+        <tr>
+            <td class="time">11:32 AM</td>
+            <td class="event">Eat lunch with friends</td>
+        </tr>
+
+        <tr>
+            <td class="time">1:00 PM</td>
+            <td class="event">Work on a worksheet for Geometry Class</td>
+        </tr>
+
+        <tr>
+            <td class="time">3:00 PM</td>
+            <td class="event">Get done with school</td>
+        </tr>
+
+        <tr>
+            <td class="time">4:00 PM</td>
+            <td class="event">Start football practice</td>
+        </tr>
+
+        <tr id="last-event">
+            <td class="time">7:00 PM</td>
+            <td class="event">Eat dinner and relax</td>
+        </tr>
+    </table>
+
+</body>
+</html>
