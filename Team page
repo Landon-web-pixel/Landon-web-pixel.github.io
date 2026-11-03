@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<head>
+    <title>Meet The Team</title>
+
+    <style>
+        body 
+            font-family: Arial, sans-serif;
+            background-color: #eaf0f6;
+            margin: 0;
+            padding: 0;
+        
+
+        header 
+            background-color: #203b5c;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            position: relative;
+        
+
+        nav 
+            background-color: #152a42;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        
+
+        nav a 
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+        
+
+        nav a:hover 
+            color: orange;
+        
+
+        .team-container 
+            width: 85%;
+            margin: 30px auto;
+        
+
+        .member 
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 25px;
+            min-height: 170px;
+            border-radius: 10px;
+            overflow: auto;
+            box-shadow: 0 2px 6px #aaa;
+        
+
+        .member img 
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+        
+
+        .member h2 
+            color: #203b5c;
+        
+
+        footer 
+            background-color: #203b5c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+        
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Meet The Team</h1>
+    <p>Get to know the people behind our success!</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Our Team</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="team-container">
+
+    <div class="member">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Picture of Kaiden">
+        <h2>Kaiden - Team Leader</h2>
+        <p>Kaiden leads our team and makes sure everyone works together. He enjoys solving problems, helping others, and making sure projects are completed successfully.</p>
+    </div>
+
+    <div class="member">
+        <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Picture of Wyatt">
+        <h2>Wyatt - Designer</h2>
+        <p>Wyatt is responsible for creating designs and making our website look great. He enjoys art, creativity, and finding new ways to improve our projects.</p>
+    </div>
+
+    <div class="member">
+        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Picture of Silas">
+        <h2>Silas - Developer</h2>
+        <p>Silas works on building and maintaining our website. He enjoys coding, technology, and figuring out how to make things work better.</p>
+    </div>
+
+    <div class="member">
+        <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="Picture of Grady">
+        <h2>Grady - Marketing Manager</h2>
+        <p>Grady helps promote our organization and connect with customers. He enjoys communication, teamwork, and coming up with creative marketing ideas.</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Our Team Website. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
