@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Puzzle Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <header>
+            <h1>Landon Carlson</h1>
+            <h2>Butterflies Puzzle</h2>
+        </header>
+
+        <section class="puzzle">
+            <h2>My Completed Flexbox Puzzle</h2>
+
+            <div class="flex-container">
+                <!-- Replace these filenames with the actual ZIP filenames -->
+                <img src="images/piece1.png" alt="Butterfly puzzle piece">
+                <img src="images/piece2.png" alt="Butterfly puzzle piece">
+                <img src="images/piece3.png" alt="Butterfly puzzle piece">
+                <img src="images/piece4.png" alt="Butterfly puzzle piece">
+                <img src="images/piece5.png" alt="Butterfly puzzle piece">
+                <img src="images/piece6.png" alt="Butterfly puzzle piece">
+                <img src="images/piece7.png" alt="Butterfly puzzle piece">
+                <img src="images/piece8.png" alt="Butterfly puzzle piece">
+                <img src="images/wrong-piece.png" class="wrong" alt="Incorrect puzzle piece">
+            </div>
+        </section>
+
+        <footer>
+            <p>Assignment completed: November 9, 2026</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
