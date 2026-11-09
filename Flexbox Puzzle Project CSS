@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.flex-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.wrong {
+    display: none;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+}
