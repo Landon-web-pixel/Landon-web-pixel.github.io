@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowling Scorecard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Bowling Scorecard</h1>
+            <p>Record each bowler's score for ten frames.</p>
+        </div>
+        <img src="https://s3.amazonaws.com/content.accelerate-ed.com/Secondary/docs/BasicWebDesign_AE/images/shutterstock_599738306.png" alt="Collection of different sports balls">
+    </header>
+    <nav>
+        <a href="golf.html">Golf</a>
+        <a href="baseball.html">Baseball</a>
+        <a href="bowling.html">Bowling</a>
+    </nav>
+    <main>
+        <p class="intro">Add each player's name and score for frames 1–10. Use the total column for the final game score.</p>
+        <div class="table-wrap">
+            <table>
+                <caption>Bowling — 10-Frame Scorecard</caption>
+                <thead>
+                    <tr><th scope="col">Player</th><th scope="col">Frame 1</th><th scope="col">Frame 2</th><th scope="col">Frame 3</th><th scope="col">Frame 4</th><th scope="col">Frame 5</th><th scope="col">Frame 6</th><th scope="col">Frame 7</th><th scope="col">Frame 8</th><th scope="col">Frame 9</th><th scope="col">Frame 10</th><th scope="col">Total</th></tr>
+                </thead>
+                <tbody>
+                    <tr><th scope="row"><input class="player-name" type="text" placeholder="Player 1" aria-label="Player 1 name"></th>
+                        <td><input type="number" min="0" max="30" aria-label="Player 1 frame 1"></td><td><input type="number" min="0" max="30" aria-label="Player 1 frame 2"></td><td><input type="number" min="0" max="30" aria-label="Player 1 frame 3"></td><td><input type="number" min="0" max="30" aria-label="Player 1 frame 4"></td><td><input type="number" min="0" max="30" aria-label="Player 1 frame 5"></td><td><input type="number" min="0" max="30" aria-label="Player 1 frame 6"></td><td><input type="number" min="0" max="30" aria-label="Player 1 frame 7"></td><td><input type="number" min="0" max="30" aria-label="Player 1 frame 8"></td><td><input type="number" min="0" max="30" aria-label="Player 1 frame 9"></td><td><input type="number" min="0" max="30" aria-label="Player 1 frame 10"></td><td><input type="number" min="0" aria-label="Player 1 total"></td></tr>
+                    <tr><th scope="row"><input class="player-name" type="text" placeholder="Player 2" aria-label="Player 2 name"></th>
+                        <td><input type="number" min="0" max="30" aria-label="Player 2 frame 1"></td><td><input type="number" min="0" max="30" aria-label="Player 2 frame 2"></td><td><input type="number" min="0" max="30" aria-label="Player 2 frame 3"></td><td><input type="number" min="0" max="30" aria-label="Player 2 frame 4"></td><td><input type="number" min="0" max="30" aria-label="Player 2 frame 5"></td><td><input type="number" min="0" max="30" aria-label="Player 2 frame 6"></td><td><input type="number" min="0" max="30" aria-label="Player 2 frame 7"></td><td><input type="number" min="0" max="30" aria-label="Player 2 frame 8"></td><td><input type="number" min="0" max="30" aria-label="Player 2 frame 9"></td><td><input type="number" min="0" max="30" aria-label="Player 2 frame 10"></td><td><input type="number" min="0" aria-label="Player 2 total"></td></tr>
+                    <tr><th scope="row"><input class="player-name" type="text" placeholder="Player 3" aria-label="Player 3 name"></th>
+                        <td><input type="number" min="0" max="30" aria-label="Player 3 frame 1"></td><td><input type="number" min="0" max="30" aria-label="Player 3 frame 2"></td><td><input type="number" min="0" max="30" aria-label="Player 3 frame 3"></td><td><input type="number" min="0" max="30" aria-label="Player 3 frame 4"></td><td><input type="number" min="0" max="30" aria-label="Player 3 frame 5"></td><td><input type="number" min="0" max="30" aria-label="Player 3 frame 6"></td><td><input type="number" min="0" max="30" aria-label="Player 3 frame 7"></td><td><input type="number" min="0" max="30" aria-label="Player 3 frame 8"></td><td><input type="number" min="0" max="30" aria-label="Player 3 frame 9"></td><td><input type="number" min="0" max="30" aria-label="Player 3 frame 10"></td><td><input type="number" min="0" aria-label="Player 3 total"></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>Bowling Scorecard Project</footer>
+</body>
+</html>

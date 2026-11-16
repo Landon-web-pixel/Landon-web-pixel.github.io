@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Scorecard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Baseball Scorecard</h1>
+            <p>Keep track of runs by inning.</p>
+        </div>
+        <img src="https://s3.amazonaws.com/content.accelerate-ed.com/Secondary/docs/BasicWebDesign_AE/images/shutterstock_599738306.png" alt="Collection of different sports balls">
+    </header>
+    <nav>
+        <a href="golf.html">Golf</a>
+        <a href="baseball.html">Baseball</a>
+        <a href="bowling.html">Bowling</a>
+    </nav>
+    <main>
+        <p class="intro">Enter each team's runs for innings 1–9, then fill in the team's total runs, hits, and errors.</p>
+        <div class="table-wrap">
+            <table>
+                <caption>Baseball — Inning Scorecard</caption>
+                <thead>
+                    <tr><th scope="col">Team</th><th scope="col">1</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th><th scope="col">6</th><th scope="col">7</th><th scope="col">8</th><th scope="col">9</th><th scope="col">Runs</th><th scope="col">Hits</th><th scope="col">Errors</th></tr>
+                </thead>
+                <tbody>
+                    <tr><th scope="row"><input class="player-name" type="text" placeholder="Home team" aria-label="Home team name"></th>
+                        <td><input type="number" min="0" aria-label="Home inning 1"></td><td><input type="number" min="0" aria-label="Home inning 2"></td><td><input type="number" min="0" aria-label="Home inning 3"></td><td><input type="number" min="0" aria-label="Home inning 4"></td><td><input type="number" min="0" aria-label="Home inning 5"></td><td><input type="number" min="0" aria-label="Home inning 6"></td><td><input type="number" min="0" aria-label="Home inning 7"></td><td><input type="number" min="0" aria-label="Home inning 8"></td><td><input type="number" min="0" aria-label="Home inning 9"></td><td><input type="number" min="0" aria-label="Home runs"></td><td><input type="number" min="0" aria-label="Home hits"></td><td><input type="number" min="0" aria-label="Home errors"></td></tr>
+                    <tr><th scope="row"><input class="player-name" type="text" placeholder="Away team" aria-label="Away team name"></th>
+                        <td><input type="number" min="0" aria-label="Away inning 1"></td><td><input type="number" min="0" aria-label="Away inning 2"></td><td><input type="number" min="0" aria-label="Away inning 3"></td><td><input type="number" min="0" aria-label="Away inning 4"></td><td><input type="number" min="0" aria-label="Away inning 5"></td><td><input type="number" min="0" aria-label="Away inning 6"></td><td><input type="number" min="0" aria-label="Away inning 7"></td><td><input type="number" min="0" aria-label="Away inning 8"></td><td><input type="number" min="0" aria-label="Away inning 9"></td><td><input type="number" min="0" aria-label="Away runs"></td><td><input type="number" min="0" aria-label="Away hits"></td><td><input type="number" min="0" aria-label="Away errors"></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>Baseball Scorecard Project</footer>
+</body>
+</html>

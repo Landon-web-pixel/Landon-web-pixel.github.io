@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf Scorecard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Golf Scorecard</h1>
+            <p>Track each player's score across nine holes.</p>
+        </div>
+        <img src="https://s3.amazonaws.com/content.accelerate-ed.com/Secondary/docs/BasicWebDesign_AE/images/shutterstock_599738306.png" alt="Collection of different sports balls">
+    </header>
+    <nav>
+        <a href="golf.html">Golf</a>
+        <a href="baseball.html">Baseball</a>
+        <a href="bowling.html">Bowling</a>
+    </nav>
+    <main>
+        <p class="intro">Enter each golfer's name and score for every hole. The final column is for the player's total strokes.</p>
+        <div class="table-wrap">
+            <table>
+                <caption>Golf — 9-Hole Scorecard</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Player</th>
+                        <th scope="col">Hole 1</th><th scope="col">Hole 2</th><th scope="col">Hole 3</th>
+                        <th scope="col">Hole 4</th><th scope="col">Hole 5</th><th scope="col">Hole 6</th>
+                        <th scope="col">Hole 7</th><th scope="col">Hole 8</th><th scope="col">Hole 9</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><th scope="row"><input class="player-name" type="text" placeholder="Player 1" aria-label="Player 1 name"></th>
+                        <td><input type="number" min="1" aria-label="Player 1 hole 1"></td><td><input type="number" min="1" aria-label="Player 1 hole 2"></td><td><input type="number" min="1" aria-label="Player 1 hole 3"></td><td><input type="number" min="1" aria-label="Player 1 hole 4"></td><td><input type="number" min="1" aria-label="Player 1 hole 5"></td><td><input type="number" min="1" aria-label="Player 1 hole 6"></td><td><input type="number" min="1" aria-label="Player 1 hole 7"></td><td><input type="number" min="1" aria-label="Player 1 hole 8"></td><td><input type="number" min="1" aria-label="Player 1 hole 9"></td><td><input type="number" min="1" aria-label="Player 1 total"></td></tr>
+                    <tr><th scope="row"><input class="player-name" type="text" placeholder="Player 2" aria-label="Player 2 name"></th>
+                        <td><input type="number" min="1" aria-label="Player 2 hole 1"></td><td><input type="number" min="1" aria-label="Player 2 hole 2"></td><td><input type="number" min="1" aria-label="Player 2 hole 3"></td><td><input type="number" min="1" aria-label="Player 2 hole 4"></td><td><input type="number" min="1" aria-label="Player 2 hole 5"></td><td><input type="number" min="1" aria-label="Player 2 hole 6"></td><td><input type="number" min="1" aria-label="Player 2 hole 7"></td><td><input type="number" min="1" aria-label="Player 2 hole 8"></td><td><input type="number" min="1" aria-label="Player 2 hole 9"></td><td><input type="number" min="1" aria-label="Player 2 total"></td></tr>
+                    <tr><th scope="row"><input class="player-name" type="text" placeholder="Player 3" aria-label="Player 3 name"></th>
+                        <td><input type="number" min="1" aria-label="Player 3 hole 1"></td><td><input type="number" min="1" aria-label="Player 3 hole 2"></td><td><input type="number" min="1" aria-label="Player 3 hole 3"></td><td><input type="number" min="1" aria-label="Player 3 hole 4"></td><td><input type="number" min="1" aria-label="Player 3 hole 5"></td><td><input type="number" min="1" aria-label="Player 3 hole 6"></td><td><input type="number" min="1" aria-label="Player 3 hole 7"></td><td><input type="number" min="1" aria-label="Player 3 hole 8"></td><td><input type="number" min="1" aria-label="Player 3 hole 9"></td><td><input type="number" min="1" aria-label="Player 3 total"></td></tr>
+                    <tr><th scope="row"><input class="player-name" type="text" placeholder="Player 4" aria-label="Player 4 name"></th>
+                        <td><input type="number" min="1" aria-label="Player 4 hole 1"></td><td><input type="number" min="1" aria-label="Player 4 hole 2"></td><td><input type="number" min="1" aria-label="Player 4 hole 3"></td><td><input type="number" min="1" aria-label="Player 4 hole 4"></td><td><input type="number" min="1" aria-label="Player 4 hole 5"></td><td><input type="number" min="1" aria-label="Player 4 hole 6"></td><td><input type="number" min="1" aria-label="Player 4 hole 7"></td><td><input type="number" min="1" aria-label="Player 4 hole 8"></td><td><input type="number" min="1" aria-label="Player 4 hole 9"></td><td><input type="number" min="1" aria-label="Player 4 total"></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>Golf Scorecard Project</footer>
+</body>
+</html>
