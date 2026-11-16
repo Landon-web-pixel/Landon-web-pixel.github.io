@@ -1,0 +1,144 @@
+ {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eef3f7;
+    color: #1d2935;
+}
+
+header {
+    background: #153b50;
+    color: white;
+    padding: 24px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+header img {
+    width: 125px;
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0;
+    color: #dceaf2;
+}
+
+nav {
+    background: #0d2939;
+    padding: 13px 5%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 22px;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #ffd166;
+    text-decoration: underline;
+}
+
+main {
+    width: min(1100px, 92%);
+    margin: 32px auto;
+}
+
+.intro {
+    margin-bottom: 22px;
+    line-height: 1.5;
+}
+
+.table-wrap {
+    overflow-x: auto;
+    background: white;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
+}
+
+table {
+    width: 100%;
+    min-width: 650px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption {
+    font-size: 1.35rem;
+    font-weight: bold;
+    padding: 12px;
+    color: #153b50;
+}
+
+th, td {
+    border: 1px solid #b8c8d2;
+    padding: 12px 9px;
+}
+
+thead th {
+    background: #24627d;
+    color: white;
+}
+
+tbody th {
+    background: #dceaf2;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background: #f0f6f9;
+}
+
+tbody tr:hover {
+    background: #fff1c7;
+}
+
+input {
+    width: 58px;
+    max-width: 100%;
+    padding: 7px 4px;
+    border: 1px solid #9aabb5;
+    border-radius: 5px;
+    text-align: center;
+    font: inherit;
+}
+
+.player-name {
+    width: 145px;
+    text-align: left;
+}
+
+.total-row th,
+.total-row td {
+    background: #d7e9dc;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #526571;
+}
+
+@media (max-width: 600px) {
+    header h1 { font-size: 1.55rem; }
+    main { margin: 22px auto; }
+    .table-wrap { padding: 10px; }
+}
